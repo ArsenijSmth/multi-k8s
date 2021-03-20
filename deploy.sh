@@ -1,4 +1,4 @@
-docker build -t arsenijs/multi-client:latest -t arsenijs/multi-clinet:$SHA -f ./client/Dockerfile ./client
+docker build -t arsenijs/multi-client:latest -t arsenijs/multi-client:$SHA -f ./client/Dockerfile ./client
 docker build -t arsenijs/multi-server:latest -t arsenijs/multi-server:$SHA -f ./server/Dockerfile ./server
 docker build -t arsenijs/multi-worker:latest -t arsenijs/multi-worker:$SHA -f ./worker/Dockerfile ./worker
 
